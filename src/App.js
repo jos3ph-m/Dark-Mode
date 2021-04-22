@@ -8,6 +8,7 @@ function App() {
       <nav>
         <div className="nav-center">
           <h1>overreacted</h1>
+          <button className="btn">toggle</button>
         </div>
       </nav>
     </main>
