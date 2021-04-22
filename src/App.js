@@ -3,7 +3,13 @@ import data from './data';
 import Article from './Article';
 
 function App() {
-  return <main>dark mode starter</main>;
+  return (
+    <main>
+      <nav>
+        <div className="nav-center"></div>
+      </nav>
+    </main>
+  );
 }
 
 export default App;
