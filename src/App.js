@@ -11,6 +11,7 @@ function App() {
           <button className="btn">toggle</button>
         </div>
       </nav>
+      <section className="articles"></section>
     </main>
   );
 }
