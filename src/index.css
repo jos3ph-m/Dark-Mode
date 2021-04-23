@@ -9,6 +9,11 @@ Global Styles
   --clr-font: #282c35;
   --clr-primary: #c97c96;
 }
+.dark-theme {
+  --clr-bcg: #282c35;
+  --clr-font: #fff;
+  --clr-primary: #7ab6b3;
+}
 
 *,
 ::after,
