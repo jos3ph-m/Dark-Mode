@@ -5,6 +5,8 @@ import Article from './Article';
 function App() {
   const [theme, setTheme] = useState('light-theme');
 
+  const toggleTheme = () => {};
+
   useEffect(() => {
     document.documentElement.className = theme;
   }, [theme]);
