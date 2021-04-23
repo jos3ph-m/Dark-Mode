@@ -8,6 +8,8 @@ function App() {
   const toggleTheme = () => {
     if (theme === 'light-theme') {
       setTheme('dark-theme');
+    } else {
+      setTheme('light-theme');
     }
   };
 
