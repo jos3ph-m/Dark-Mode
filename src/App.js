@@ -23,7 +23,7 @@ function App() {
 
   useEffect(() => {
     document.documentElement.className = theme;
-    localStorage.setItem('theme');
+    localStorage.setItem('theme', theme);
   }, [theme]);
   return (
     <main>
