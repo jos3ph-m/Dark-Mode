@@ -3,7 +3,7 @@ import data from './data';
 import Article from './Article';
 
 const getStorageTheme = () => {
-  let theme =
+  let theme = 'light-theme';
 };
 
 function App() {
