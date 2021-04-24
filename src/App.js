@@ -7,6 +7,7 @@ const getStorageTheme = () => {
   if (localStorage.getItem('theme')) {
     theme = localStorage.getItem('theme');
   }
+  return theme;
 };
 
 function App() {
